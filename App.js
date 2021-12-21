@@ -23,12 +23,13 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Home"
+          name="Contacts"
           component={HomeScreen}
         />
         <Stack.Screen 
           name="Details" 
           component={CharacterDetailsScreen} 
+          options={({ route }) => ({ title: route.params.character.name })}
         />
       </Stack.Navigator>
     </NavigationContainer>
