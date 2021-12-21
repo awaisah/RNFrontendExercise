@@ -32,22 +32,26 @@ const CharacterOverview = ({character, goTo}) => {
     )
 }
 
+const ROW_HEIGHT = 50
+
 const styles = StyleSheet.create({
     container: {
-        height: 80,
+        height: ROW_HEIGHT,
         marginVertical: 10,
-        paddingHorizontal: 10,
+        paddingHorizontal: '5%',
         flex:1,
         flexDirection: 'row',
     },
     image: {
         height: '100%',
-        aspectRatio: 1
+        aspectRatio: 1,
+        borderRadius: ROW_HEIGHT,
+        overflow: 'hidden',
     },
     nameLabel: {
         alignSelf: 'center',
-        marginLeft: 20,
-        fontWeight: 'bold',
+        marginLeft: 10,
+        fontWeight: '700',
         fontSize: 16
     }
 })
