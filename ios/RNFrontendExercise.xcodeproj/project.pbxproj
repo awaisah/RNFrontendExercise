@@ -114,7 +114,6 @@
 				D813E48E726E0CFFED2EEF6A /* Pods-RNFrontendExercise-RNFrontendExerciseTests.debug.xcconfig */,
 				A275BA55140C702D12212140 /* Pods-RNFrontendExercise-RNFrontendExerciseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5LQ392RC5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNFrontendExercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5LQ392RC5;
 				INFOPLIST_FILE = RNFrontendExercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
